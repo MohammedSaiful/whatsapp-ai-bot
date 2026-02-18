@@ -1,0 +1,49 @@
+The Workflow (How it happens)
+Someone messages you: "Hey, what time are you free?"
+
+Twilio catches this and "pings" your ngrok URL.
+
+FastAPI receives the ping, takes the text, and sends it to ai_agent.py.
+
+AI Agent checks your database history, thinks of a reply, and saves it.
+
+FastAPI sends the reply back to Twilio.
+
+Twilio delivers the message to the person's WhatsApp inbox.
+
+
+
+
+1. **Someone messages you:** "Hey, what time are you free?"
+2. **Twilio** catches this and "pings" your ngrok URL.
+3. **FastAPI** receives the ping, takes the text, and sends it to `ai_agent.py`.
+4. **AI Agent** checks your database history, thinks of a reply, and saves it.
+5. **FastAPI** sends the reply back to Twilio.
+6. **Twilio** delivers the message to the person's WhatsApp inbox.
+
+
+
+
+1.
+python -m venv venv
+venv\Scripts\activate
+
+2.
+pip install fastapi uvicorn python-dotenv requests
+pip install python-multipart
+
+3.
+uvicorn App.main:app --reload (run main.py)
+
+4.
+ngrok config add-authtoken <TOKEN>
+ngrok http 8000
+
+
+
+5.
+pip install openai langchain langgraph python-dotenv
+
+
+pip install langchain-groq
+

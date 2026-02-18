@@ -6,7 +6,7 @@ This bot receives WhatsApp messages and replies automatically using an AI model.
 
 ---
 
-## 🚀 Features
+## Features
 
 - ✅ FastAPI webhook server
 - ✅ WhatsApp integration using Twilio
@@ -53,9 +53,6 @@ This bot receives WhatsApp messages and replies automatically using an AI model.
 
 ### 1️⃣ Clone the Repository
 
-```bash
-git clone https://github.com/your-username/whatsapp-ai-bot.git
-cd whatsapp-ai-bot
 
 ### 2️⃣ Create Virtual Environment
 python -m venv venv
