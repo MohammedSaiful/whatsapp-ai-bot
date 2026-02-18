@@ -18,12 +18,16 @@ This bot receives WhatsApp messages and replies automatically using an AI model.
 
 ##  Project Structure
 
-📦 whatsapp-ai-bot
-┣ 📂 App
-┃ ┗ 📜 ai_agent.py
-┣ 📜 main.py
-┣ 📜 requirements.txt
-┗ 📜 README.md
+whatsapp-ai-bot/
+│
+├── App/
+│   └── ai_agent.py          # Handles Groq LLM initialization and AI reply generation
+│
+├── main.py                  # FastAPI server and WhatsApp webhook endpoint
+├── requirements.txt         # Python dependencies
+├── .env                     # Environment variables (NOT pushed to GitHub)
+├── .gitignore               # Ignore venv, cache, and secrets
+└── README.md                # Project documentation
 
 
 ---
