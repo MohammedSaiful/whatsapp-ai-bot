@@ -57,7 +57,7 @@ whatsapp-ai-bot/
 
 ### 1️⃣ Clone the Repository
 
-
+- https://github.com/MohammedSaiful/whatsapp-ai-bot.git
 ### 2️⃣ Create Virtual Environment
 python -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
