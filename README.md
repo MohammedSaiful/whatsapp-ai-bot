@@ -17,7 +17,7 @@ This bot receives WhatsApp messages and replies automatically using an AI model.
 ---
 
 ##  Project Structure
-
+```
 whatsapp-ai-bot/
 │
 ├── App/
