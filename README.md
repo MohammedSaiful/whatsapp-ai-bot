@@ -4,7 +4,7 @@ A WhatsApp AI chatbot built using **FastAPI**, **Groq LLM (Llama 3.3 70B)**, and
 
 This bot receives WhatsApp messages and replies automatically using an AI model.
 
----
+
 
 ## Features
 
@@ -14,7 +14,7 @@ This bot receives WhatsApp messages and replies automatically using an AI model.
 - ✅ Environment variable configuration
 - ✅ Clean and minimal project structure
 
----
+
 
 ##  Project Structure
 ```
@@ -28,9 +28,9 @@ whatsapp-ai-bot/
 ├── .env                     # Environment variables (NOT pushed to GitHub)
 ├── .gitignore               # Ignore venv, cache, and secrets
 └── README.md                # Project documentation
+```
 
 
----
 
 ## Technologies Used
 
@@ -41,7 +41,7 @@ whatsapp-ai-bot/
 - Groq LLM (llama-3.3-70b-versatile)
 - Python-dotenv
 
----
+
 
 ##  How It Works
 
@@ -51,7 +51,7 @@ whatsapp-ai-bot/
 4. The AI generates a reply.
 5. Twilio sends the reply back to the user.
 
----
+
 
 ##  Setup Instructions
 
